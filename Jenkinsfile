@@ -1,4 +1,4 @@
-node {
+pipeline {
 	stage('Build') {
 		echo "Build"
 	}
@@ -6,6 +6,6 @@ node {
 		echo "Test"
 	}
 	stage('Integration Test') {
-		echo "Test"
+		echo "Integration Test"
 	}
 }
