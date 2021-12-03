@@ -28,7 +28,7 @@ pipeline {
             echo 'success'
         }
 
-        fails {
+        failure {
             echo 'fail'
         }
 
