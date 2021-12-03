@@ -28,8 +28,12 @@ pipeline {
             echo 'success'
         }
 
-        fail{
+        fails {
             echo 'fail'
+        }
+
+        changed {
+            echo 'change'
         }
     }
 
